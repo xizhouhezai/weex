@@ -1,5 +1,8 @@
 <template>
   <div class="recommend">
+    <h1>
+      <text>123</text>
+    </h1>
     <div class="slider" v-for="(item, index) in slider" :key="index">
       <image
         style="width:100%;height:500px"
@@ -7,6 +10,7 @@
         resize="cover"
       ></image>
     </div>
+    <image style="width:100%;height:500px" src="http://y.gtimg.cn/music/photo_new/T003R720x288M000003zsjKi29fSOQ.jpg"></image>
   </div>
 </template>
 
